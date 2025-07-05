@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+    max-height: 100%;
+    max-width: 100%;
+} */
+
