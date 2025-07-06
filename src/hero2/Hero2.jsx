@@ -14,11 +14,21 @@ const Hero2 = () => {
               </p>
             </div>
             <div className="mt-6 md:w-1/2">
-              <a href="#services" className="bg-blue-600 text-white px-6 py-3 mr-[10%] rounded-full font-semibold hover:bg-blue-500 transition">
-                Discover Our Services
-              </a>
-              <button className="bg-gray-200 text-gray-800 px-6 py-3 rounded-full hover:bg-blue-300 transition">Contact Us</button>
-            </div>
+  <div className="flex flex-col md:flex-row gap-4">
+    <a
+      href="#services"
+      className="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-500 transition text-center"
+    >
+      Discover Our Services
+    </a>
+    <a
+      href="#services"
+      className="bg-gray-200 text-gray-800 px-6 py-3 rounded-full hover:bg-blue-300 transition text-center"
+    >
+      Contact Us
+    </a>
+  </div>
+</div>
           </div>
 
             {/* image */}

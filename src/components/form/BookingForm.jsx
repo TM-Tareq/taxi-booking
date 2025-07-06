@@ -85,121 +85,118 @@ export default function BookingForm() {
   // region UI
   return (
     <div
-      className="bg-fixed bg-cover bg-center h-[70vh] flex items-center justify-center object-cover"
-      style={{ backgroundImage: `url('/images/travel3.jpg')` }}>
-      <div className="backdrop-blur-md bg-white/40 bg-opacity-90 max-w-3xl mx-auto p-6 my-10 rounded-xl shadow-lg">
-        <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <input
-                name="departure"
-                placeholder="Departure Point"
-                className="w-full border p-2 rounded outline-0 bg-none"
-                value={formData.departure}
-                onChange={handleChange}
-              />
-              {errors.departure && <p className="text-red-900 text-sm">{errors.departure}</p>}
-            </div>
-            <div>
-              <input
-                name="destination"
-                placeholder="Destination"
-                className="w-full border p-2 rounded outline-0 bg-none"
-                value={formData.destination}
-                onChange={handleChange}
-              />
-              {errors.destination && <p className="text-red-500 text-sm">{errors.destination}</p>}
-            </div>
-
-            <div>
-              <input
-                type="date"
-                name="date"
-                className="w-full text-gray-700 border p-2 rounded outline-0 bg-none"
-                value={formData.date}
-                // value={new DateObject(new Date(formData.date ?? '')).format("dddd DD MMMM, YYYY")}
-                onChange={handleChange}
-              />
-              {errors.date && <p className="text-red-500 text-sm">{errors.date}</p>}
-            </div>
-
-            <div>
-              <input
-                name="serviceHours"
-                placeholder="Service Hours"
-                className="w-full border p-2 rounded outline-0 bg-none"
-                value={formData.serviceHours}
-                onChange={handleChange}
-              />
-              {errors.serviceHours && <p className="text-red-500 text-sm">{errors.serviceHours}</p>}
-            </div>
-
-            <div>
-              <input
-                name="phone"
-                placeholder="Phone Number"
-                className="w-full border p-2 rounded outline-0 bg-none"
-                value={formData.phone}
-                onChange={handleChange}
-              />
-              {errors.phone && <p className="text-red-500 text-sm">{errors.phone}</p>}
-            </div>
-
-            <div>
-              <input
-                name="email"
-                placeholder="E-mail address"
-                className="w-full border p-2 rounded outline-0 bg-none"
-                value={formData.email}
-                onChange={handleChange}
-              />
-              {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
-            </div>
-
-            <div>
-              <input
-                name="name"
-                placeholder="Name"
-                className="w-full border p-2 rounded outline-0 bg-none"
-                value={formData.name}
-                onChange={handleChange}
-              />
-            </div>
-
-            <div>
-              <input
-                name="passengers"
-                placeholder="No. of Passengers"
-                className="w-full border p-2 rounded outline-0 bg-0"
-                value={formData.passengers}
-                onChange={handleChange}
-              />
-            </div>
-          </div>
-
-          <div>
-            <textarea
-              name="info"
-              placeholder="Number of bags and additional information"
-              className="w-full border p-2 rounded outline-0 bg-none"
-              value={formData.info}
-              onChange={handleChange}
-            ></textarea>
-          </div>
-
-          {!isLoading ? (
-            <button
-              type="submit"
-              className="bg-black text-white px-6 py-2 rounded hover:bg-blue-700 transition"
-              disabled={isLoading}
-            >
-              {!isLoading ? 'Send Request' : 'Loading...'}
-            </button>
-          ) : (
-            <SpinnerLoading color="royalblue" size={100} />
-          )}
-        </form>
+  className="bg-fixed bg-cover bg-center h-[auto] py-10 flex items-center justify-center"
+  style={{ backgroundImage: `url('/images/travel3.jpg')` }}
+>
+  <div className="backdrop-blur-md bg-white/40 bg-opacity-90 w-full max-w-screen-lg px-4 md:px-6 py-8 rounded-xl shadow-lg">
+    <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <input
+            name="departure"
+            placeholder="Departure Point"
+            className="w-full border p-3 rounded outline-0"
+            value={formData.departure}
+            onChange={handleChange}
+          />
+          {errors.departure && <p className="text-red-500 text-sm">{errors.departure}</p>}
+        </div>
+        <div>
+          <input
+            name="destination"
+            placeholder="Destination"
+            className="w-full border p-3 rounded outline-0"
+            value={formData.destination}
+            onChange={handleChange}
+          />
+          {errors.destination && <p className="text-red-500 text-sm">{errors.destination}</p>}
+        </div>
+        <div>
+          <input
+            type="date"
+            name="date"
+            className="w-full text-gray-700 border p-3 rounded outline-0"
+            value={formData.date}
+            onChange={handleChange}
+          />
+          {errors.date && <p className="text-red-500 text-sm">{errors.date}</p>}
+        </div>
+        <div>
+          <input
+            name="serviceHours"
+            placeholder="Service Hours"
+            className="w-full border p-3 rounded outline-0"
+            value={formData.serviceHours}
+            onChange={handleChange}
+          />
+          {errors.serviceHours && <p className="text-red-500 text-sm">{errors.serviceHours}</p>}
+        </div>
+        <div>
+          <input
+            name="phone"
+            placeholder="Phone Number"
+            className="w-full border p-3 rounded outline-0"
+            value={formData.phone}
+            onChange={handleChange}
+          />
+          {errors.phone && <p className="text-red-500 text-sm">{errors.phone}</p>}
+        </div>
+        <div>
+          <input
+            name="email"
+            placeholder="E-mail address"
+            className="w-full border p-3 rounded outline-0"
+            value={formData.email}
+            onChange={handleChange}
+          />
+          {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
+        </div>
+        <div>
+          <input
+            name="name"
+            placeholder="Name"
+            className="w-full border p-3 rounded outline-0"
+            value={formData.name}
+            onChange={handleChange}
+          />
+        </div>
+        <div>
+          <input
+            name="passengers"
+            placeholder="No. of Passengers"
+            className="w-full border p-3 rounded outline-0"
+            value={formData.passengers}
+            onChange={handleChange}
+          />
+        </div>
       </div>
-    </div>
+
+      <div>
+        <textarea
+          name="info"
+          placeholder="Number of bags and additional information"
+          className="w-full border p-3 rounded outline-0 min-h-[100px]"
+          value={formData.info}
+          onChange={handleChange}
+        ></textarea>
+      </div>
+
+      <div className="flex justify-center">
+        {!isLoading ? (
+          <button
+            type="submit"
+            className="bg-black text-white px-8 py-3 rounded hover:bg-blue-700 transition"
+            disabled={isLoading}
+          >
+            Send Request
+          </button>
+        ) : (
+          <SpinnerLoading color="royalblue" size={100} />
+        )}
+      </div>
+    </form>
+  </div>
+</div>
+
   );
 }
