@@ -1,16 +1,14 @@
 const Hero2 = () => {
   return (
     <>
-      <section className="bg-[#FCFDFE] border-none mt-0 px-6 md:px-12">
-        <div className="flex mt-16">
+      <section className="bg-[#FCFDFE] border-none mt-0 px-6 md:px-8">
+        <div className="flex mt-16 w-full">
           {/* text */}
           <div>
-            <div className="md:w-1/2 text-center md:text-left">
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight"><span className="color-[#2463EB]">Professional</span> Solutions for Your Business</h1>
+            <div className="md:w-1/2 text-center md:text-left w-full">
+              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 leading-tight"><span className="color-[#2463EB]">Elegance </span> And Comfort in Motion</h1>
               <p className="mt-6 text-lg text-gray-600">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
-                debitis dolores. Quibusdam deleniti expedita voluptas quos
-                voluptatem id ullam reiciendis!
+                Car rental with driver for comfortable, safe and luxury travel. choone excellence for every trip!
               </p>
             </div>
             <div className="mt-6 md:w-1/2">
@@ -32,8 +30,8 @@ const Hero2 = () => {
           </div>
 
             {/* image */}
-            <div className="md:w-1/2">
-                <img src="./../images/discussion.jpg" 
+            <div className="md:w-full">
+                <img src="./../images/header.jpeg" 
                 alt="" 
                 className="w-full h-auto rounded-xl object-cover shadow-lg"
                 />
