@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-container">
 
         <div className="footer-section about">
-          <h3>Azad Limo NCC</h3>
+          <h3>Ahammed Luxury Taxi</h3>
           <p>
             We operate in Rome and its surroundings, offering car rental solutions with driver for transfers, events, and private tours.
           </p>
