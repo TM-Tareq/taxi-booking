@@ -2,8 +2,8 @@ import "./ServicesSections.css";
 
 const servicesData = [
   {
-    icon: "🚚",
-    tag: "Fast Delivery",
+    icon: "🚕",
+    tag: "Luxury Taxi",
     text: "We ensure quick and safe delivery to your doorstep.",
     href: "https://wa.me/+393275933303",
     buttonText: "A partire da €60",
