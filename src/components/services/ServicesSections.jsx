@@ -4,7 +4,7 @@ const servicesData = [
   {
     icon: "🚕",
     tag: "Luxury Taxi",
-    text: "We ensure quick and safe delivery to your doorstep.",
+    text: "Offers Airport, Hotel, Cruise Ship private car Service in luxury Sedans and minor luxury cars",
     href: "https://wa.me/+393275933303",
     buttonText: "A partire da €60",
     classOfIcon: 'delivery',
