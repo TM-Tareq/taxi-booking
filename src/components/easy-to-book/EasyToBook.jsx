@@ -11,7 +11,7 @@ const EasyToBook = () => {
         <div className="easy-book-text">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Easy To Book</h2>
           <p>
-            Booking a ride with Azad Limo NCC is simple and hassle-free. Whether you're headed to the airport, planning a private tour, or need a ride to an event — we’ve got you covered.
+            Booking a ride with Ahammed Luxury Taxi is simple and hassle-free. Whether you're headed to the airport, planning a private tour, or need a ride to an event — we’ve got you covered.
           </p>
           <a 
             href="https://wa.me/+393275933303" 
