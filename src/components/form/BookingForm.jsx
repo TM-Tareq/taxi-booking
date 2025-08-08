@@ -129,7 +129,7 @@ export default function BookingForm() {
                 onChange={handleChange}
               />
               {errors.date && (
-                <p className="text-red-500 text-sm">{errors.destination}</p>
+                <p className="text-red-500 text-sm">{errors.date}</p>
               )}
             </div>
             <div>
