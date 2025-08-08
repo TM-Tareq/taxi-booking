@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-container">
 
         <div className="footer-section about">
-          <h3>Ahammed Luxury Taxi</h3>
+          <h3>Iqbal Luxury Transfer and Tour</h3>
           <p>
             We operate in Rome and its surroundings, offering car rental solutions with driver for transfers, events, and private tours.
           </p>
@@ -54,7 +54,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>
           © Copyright 2020 - 2025 |
-          Ahammed Luxury Taxi - Piazza Dei Navigatori 7, CAP 00147, ROME
+          Iqbal luxury transfer and tour - Piazza Dei Navigatori 7, CAP 00147, ROME
           P.IVA - 17401231000
         </p>
       </div>

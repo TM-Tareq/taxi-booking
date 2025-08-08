@@ -22,8 +22,8 @@ const Navbar2 = () => {
 
         {/* Contact Info */}
         <div className="hidden md:block text-xl font-semibold text-[#00A3D1] ml-6">
-          <p>Phone: +393275933303</p>
-          <p>Mail: ahammediqbal7@gmail.com</p>
+          <p>Phone: +393446603111</p>
+          <p>Mail: iqballavoro@gmail.com</p>
         </div>
 
         {/* Hamburger Icon for small screens */}

@@ -94,7 +94,7 @@
 }
 
 .service-button {
-  background-color: #4f46e5;
+  background-color: #25D366;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -106,7 +106,7 @@
 }
 
 .service-button:hover {
-  background-color: #4338ca;
+  background-color: #075E54 ;
   transform: translateY(-3px) scale(1.05);
   box-shadow: 0 8px 15px rgba(67, 56, 202, 0.6);
 }

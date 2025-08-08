@@ -11,7 +11,7 @@ const About2 = () => {
       <div className="bg-[#FAFBFC] text-center py-12 px-6 md:px-16" id="about-us">
         <h2 className="text-4xl font-bold text-gray-800 mb-4">About Us</h2>
         <p className="text-gray-600 max-w-2xl mx-auto mb-10">
-          Ahammed luxury taxi ncc roma  was born from a passion for excellence and the desire to offer a tailor-made transport service to those seeking comfort, punctuality and professionalism. We operate in Rome and its surroundings, offering car rental solution with driver for transfers, events and private tours. Our team of expert and courteous drivers is ready to make every trip a unique experience, guaranteeing an impeccable service with a fleet luxury vehicles  of, always cared for in the smallest details. With Ahammed luxury taxi ncc roma  you will travel with discretion, professionalism and maximum comfort
+          Iqbal luxury transfer and tour  was born from a passion for excellence and the desire to offer a tailor-made transport service to those seeking comfort, punctuality and professionalism. We operate in Rome and its surroundings, offering car rental solution with driver for transfers, events and private tours. Our team of expert and courteous drivers is ready to make every trip a unique experience, guaranteeing an impeccable service with a fleet luxury vehicles  of, always cared for in the smallest details. With Iqbal luxury transfer and tour  you will travel with discretion, professionalism and maximum comfort
         </p>
       </div>
 

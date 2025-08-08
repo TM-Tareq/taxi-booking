@@ -30,7 +30,7 @@ const WhyChooseUs = () => {
   return (
     <section className="why-choose-section">
       <div className="why-choose-container">
-        <h2 className="text-4xl font-bold text-gray-800 mb-4">Why Choose Ahammed Luxury Taxi?</h2>
+        <h2 className="text-4xl font-bold text-gray-800 mb-4">Why Choose Iqbal Luxury Transfer and Tour?</h2>
         <p>
           We are committed to providing top-tier transportation services with the highest standards of safety, professionalism, and comfort.
         </p>
