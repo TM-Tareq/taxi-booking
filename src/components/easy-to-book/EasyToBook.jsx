@@ -14,7 +14,7 @@ const EasyToBook = () => {
             Booking a ride with Ahammed Luxury Taxi is simple and hassle-free. Whether you're headed to the airport, planning a private tour, or need a ride to an event — we’ve got you covered.
           </p>
           <a 
-            href="https://wa.me/+393275933303" 
+            href="https://wa.me/+393446603111" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="book-now-btn"
