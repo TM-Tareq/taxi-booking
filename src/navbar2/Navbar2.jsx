@@ -9,7 +9,7 @@ const Navbar2 = () => {
       <nav className="shadow-md px-6 py-2.5 flex justify-between items-center mx-auto" id="nav">
         {/* Logo */}
         <div className="flex flex-1 ml-3 justify-start items-center">
-          <img src="./../images/project-logo-3.png" alt="" className="h-14 w-auto" />
+          <img src="./../images/logo.png" alt="" className="h-14 w-auto" />
         </div>
 
         {/* Menu for larger screens */}
