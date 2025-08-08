@@ -25,7 +25,16 @@ const servicesData = [
     buttonText: "A partire da €60",
     classOfIcon: 'chakka',
   },
+  {
+    icon: "🌍",
+    tag: "International Flights",
+    text: "Seamless and punctual transfers for your international flight departures and arrivals, ensuring stress-free travel.",
+    href: "https://wa.me/+393275933303",
+    buttonText: "A partire da €120",
+    classOfIcon: 'global',
+  },
 ];
+
 
 const ServicesSection = () => {
   return (
