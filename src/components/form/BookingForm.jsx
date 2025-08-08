@@ -71,6 +71,13 @@ export default function BookingForm() {
     // Only required fields validation
     if (!formData.departure.trim()) newErrors.departure = 'Please fill in this field.';
     if (!formData.destination.trim()) newErrors.destination = 'Please fill in this field.';
+    if (
+    formData.departure.trim() &&
+    formData.destination.trim() &&
+    !formData.date.trim()
+    ) {
+      newErrors.date = 'Please select a date.';
+    }
 
     setErrors(newErrors);
 
