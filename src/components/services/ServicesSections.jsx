@@ -3,10 +3,10 @@ import "./ServicesSections.css";
 const servicesData = [
   {
     icon: "🚕",
-    tag: "Luxury Taxi",
+    tag: "Disposition",
     text: "Offers Airport, Hotel, Cruise Ship private car Service in luxury Sedans and minor luxury cars",
     href: "https://wa.me/+393446603111",
-    payment: "Start From €60",
+    payment: "Per Hour €60",
     buttonText: "WhatsApp",
     classOfIcon: 'delivery',
   },
@@ -30,7 +30,7 @@ const servicesData = [
   },
   {
     icon: "✈️",
-    tag: "International Airport",
+    tag: "Fiumicino",
     text: "Seamless and punctual transfers for your international flight departures and arrivals, ensuring stress-free travel.",
     href: "https://wa.me/+393446603111",
     payment: "Start From €70",
