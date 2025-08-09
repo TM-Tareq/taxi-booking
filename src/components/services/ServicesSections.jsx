@@ -6,7 +6,7 @@ const servicesData = [
     tag: "Disposition",
     text: "Offers Airport, Hotel, Cruise Ship private car Service in luxury Sedans and minor luxury cars",
     href: "https://wa.me/+393446603111",
-    payment: "Per Hour €60",
+    payment: "Per Hour €50",
     buttonText: "WhatsApp",
     classOfIcon: 'delivery',
   },
